@@ -1,0 +1,6 @@
+---
+applications:
+  - name: static-nginx
+    buildpack: https://github.com/cloudfoundry/nginx-buildpack.git
+    env:
+      BIRD: chicken
